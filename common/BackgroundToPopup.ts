@@ -1,0 +1,1 @@
+export enum Code { REQUEST_PERMISSION, ALLOWED, DENIED }

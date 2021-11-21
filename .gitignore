@@ -1,0 +1,7 @@
+node_modules
+pnpm-lock.yaml
+extension/background.js
+extension/contentScript.js
+extension/popup.js
+dist
+chrome-tcp-extension.zip

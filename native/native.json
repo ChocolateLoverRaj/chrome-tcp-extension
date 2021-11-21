@@ -1,0 +1,6 @@
+{
+  "name": "com.chocolateloverraj.tcp",
+  "description": "Tcp Client and Server",
+  "path": "native.bat",
+  "type": "stdio"
+}

@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": [
+    "standard-with-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": [
+    "background.js",
+    "contentScript.js",
+    "popup.js"
+  ]
+}

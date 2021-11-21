@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "build",
+  "scripts": {
+    "build": "jszip -c jszip.json"
+  },
+  "devDependencies": {
+    "jszip-cli": "^1.4.24"
+  }
+}

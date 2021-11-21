@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "native",
+  "scripts": {
+    "lint": "eslint .",
+    "build:copy": "node copy.js",
+    "build:code": "webpack",
+    "build": "npm run build:copy && npm run build:code"
+  },
+  "dependencies": {
+    "chrome-native-messaging": "^0.2.0",
+    "jsonfile": "^6.1.0",
+    "rapid-stream": "^1.0.0",
+    "stream-write": "^2.0.0"
+  },
+  "devDependencies": {
+    "@appgeist/ensure-dir": "^1.1.4",
+    "@types/jsonfile": "^6.0.1",
+    "@types/stream-write": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "cp-cli": "^2.0.0",
+    "eslint": "^8.2.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.0.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}

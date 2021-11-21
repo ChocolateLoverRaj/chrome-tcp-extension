@@ -1,0 +1,23 @@
+{
+	"private": true,
+	"name": "chrome-tcp-extension",
+	"scripts": {
+		"lint": "eslint .",
+		"build:code": "rollup -c rollup.config.js",
+		"build:copy": "cp-cli manifest.json ../dist/extension/manifest.json && cp-cli popup.html ../dist/extension/popup.html",
+		"build": "npm run build:code && npm run build:copy"
+	},
+	"devDependencies": {
+		"@rollup/plugin-typescript": "^8.3.0",
+		"@types/chrome": "^0.0.164",
+		"@typescript-eslint/eslint-plugin": "^5.4.0",
+		"cp-cli": "^2.0.0",
+		"eslint": "^7.12.1",
+		"eslint-config-standard-with-typescript": "^21.0.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.0.0",
+		"rollup": "^2.60.0",
+		"typescript": "^4.5.2"
+	}
+}
