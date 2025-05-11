@@ -1,3 +1,8 @@
+> [!CAUTION]
+> No longer maintained, untested in modern Chrome versions.
+>
+> I don't think this is a good idea anymore. Like just make a native app.
+
 # Chrome TCP Extension
 
 ## Features
